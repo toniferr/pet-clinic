@@ -19,7 +19,7 @@
 
 	<groupId>com.toni</groupId>
 	<artifactId>pet-clinic</artifactId>
-	<version>0.0.3</version>
+	<version>0.0.4-SNAPSHOT</version>
 	<name>pet-clinic</name>
 	<description>Demo project for Spring Boot</description>
 
@@ -49,7 +49,7 @@
 
 	<scm>
 		<developerConnection>scm:git:https://github.com/toniferr/pet-clinic.git</developerConnection>
-	  <tag>pet-clinic-0.0.3</tag>
+	  <tag>HEAD</tag>
   </scm>
 
 </project>
