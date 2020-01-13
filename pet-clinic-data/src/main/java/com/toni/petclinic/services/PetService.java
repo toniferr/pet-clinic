@@ -4,9 +4,6 @@ import com.toni.petclinic.model.Pet;
 
 import java.util.Set;
 
-public class PetService {
+public class PetService extends CrudService<Pet, Long>{
 
-    Pet findById(Long id);
-    Pet save(Pet pet);
-    Set<Pet> findAll();
 }
