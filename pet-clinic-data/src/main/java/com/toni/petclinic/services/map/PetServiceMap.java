@@ -1,6 +1,5 @@
 package com.toni.petclinic.services.map;
 
-import com.toni.petclinic.model.Owner;
 import com.toni.petclinic.model.Pet;
 import com.toni.petclinic.services.CrudService;
 
@@ -25,7 +24,7 @@ public class PetServiceMap extends AbstractMapService<Pet, Long> implements Crud
 
     @Override
     public Pet save(Pet object) {
-        return super.save(object.getId(), object);
+        return super.save(object);
     }
 
     @Override
