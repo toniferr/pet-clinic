@@ -4,8 +4,6 @@ import com.toni.petclinic.model.Owner;
 import com.toni.petclinic.model.Vet;
 import com.toni.petclinic.services.OwnerService;
 import com.toni.petclinic.services.VetService;
-import com.toni.petclinic.services.map.OwnerServiceMap;
-import com.toni.petclinic.services.map.VetServiceMap;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
@@ -15,9 +13,10 @@ public class DataLoader implements CommandLineRunner {
     private final OwnerService ownerService;
     private final VetService vetService;
 
-    public DataLoader() {
-        ownerService = new OwnerServiceMap();
-        vetService = new VetServiceMap();
+    //@Autowire no hace falta(ya es como si lo tuviera)
+    public DataLoader(OwnerService ownerService, VetService vetService) {
+        this.ownerService = ownerService;
+        this.vetService = vetService;
     }
 
     @Override
