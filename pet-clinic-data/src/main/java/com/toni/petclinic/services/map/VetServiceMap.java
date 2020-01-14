@@ -1,11 +1,11 @@
 package com.toni.petclinic.services.map;
 
 import com.toni.petclinic.model.Vet;
-import com.toni.petclinic.services.CrudService;
+import com.toni.petclinic.services.VetService;
 
 import java.util.Set;
 
-public class VetServiceMap extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
 
     @Override
     public Set<Vet> findAll() {
