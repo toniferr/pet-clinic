@@ -4,6 +4,6 @@ import com.toni.petclinic.model.Pet;
 
 import java.util.Set;
 
-public class PetService extends CrudService<Pet, Long>{
+public interface PetService extends CrudService<Pet, Long>{
 
 }
