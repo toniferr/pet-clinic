@@ -1,11 +1,13 @@
 package com.toni.petclinic.services.map;
 
 import com.toni.petclinic.model.Speciality;
-import com.toni.petclinic.services.SpecialtiesService;
+import com.toni.petclinic.services.SpecialtyService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
-public class SpecialityMapService extends AbstractMapService<Speciality, Long> implements SpecialtiesService {
+@Service
+public class SpecialtyMapService extends AbstractMapService<Speciality, Long> implements SpecialtyService {
 
     @Override
     public Set<Speciality> findAll() {

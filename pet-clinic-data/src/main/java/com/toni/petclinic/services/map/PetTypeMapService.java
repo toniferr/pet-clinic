@@ -2,9 +2,11 @@ package com.toni.petclinic.services.map;
 
 import com.toni.petclinic.model.PetType;
 import com.toni.petclinic.services.PetTypeService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class PetTypeMapService extends AbstractMapService<PetType, Long> implements PetTypeService {
 
     @Override
