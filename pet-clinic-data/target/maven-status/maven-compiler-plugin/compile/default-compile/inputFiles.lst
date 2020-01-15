@@ -1,5 +1,14 @@
-/home/toni/eclipse-workspace/pet-clinic/pet-clinic-data/src/main/java/com/toni/petclinic/model/Pet.java
 /home/toni/eclipse-workspace/pet-clinic/pet-clinic-data/src/main/java/com/toni/petclinic/model/Owner.java
 /home/toni/eclipse-workspace/pet-clinic/pet-clinic-data/src/main/java/com/toni/petclinic/model/Vet.java
+/home/toni/eclipse-workspace/pet-clinic/pet-clinic-data/src/main/java/com/toni/petclinic/services/CrudService.java
+/home/toni/eclipse-workspace/pet-clinic/pet-clinic-data/src/main/java/com/toni/petclinic/services/PetService.java
 /home/toni/eclipse-workspace/pet-clinic/pet-clinic-data/src/main/java/com/toni/petclinic/model/PetType.java
+/home/toni/eclipse-workspace/pet-clinic/pet-clinic-data/src/main/java/com/toni/petclinic/services/map/AbstractMapService.java
+/home/toni/eclipse-workspace/pet-clinic/pet-clinic-data/src/main/java/com/toni/petclinic/model/Pet.java
+/home/toni/eclipse-workspace/pet-clinic/pet-clinic-data/src/main/java/com/toni/petclinic/services/VetService.java
+/home/toni/eclipse-workspace/pet-clinic/pet-clinic-data/src/main/java/com/toni/petclinic/services/map/VetServiceMap.java
+/home/toni/eclipse-workspace/pet-clinic/pet-clinic-data/src/main/java/com/toni/petclinic/services/map/PetServiceMap.java
 /home/toni/eclipse-workspace/pet-clinic/pet-clinic-data/src/main/java/com/toni/petclinic/model/Person.java
+/home/toni/eclipse-workspace/pet-clinic/pet-clinic-data/src/main/java/com/toni/petclinic/model/BaseEntity.java
+/home/toni/eclipse-workspace/pet-clinic/pet-clinic-data/src/main/java/com/toni/petclinic/services/OwnerService.java
+/home/toni/eclipse-workspace/pet-clinic/pet-clinic-data/src/main/java/com/toni/petclinic/services/map/OwnerServiceMap.java

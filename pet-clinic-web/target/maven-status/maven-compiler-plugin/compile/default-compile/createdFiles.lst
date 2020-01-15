@@ -1,1 +1,5 @@
+com/toni/petclinic/controllers/VetController.class
+com/toni/petclinic/controllers/OwnerController.class
 com/toni/petclinic/PetClinicApplication.class
+com/toni/petclinic/bootstrap/DataLoader.class
+com/toni/petclinic/controllers/IndexController.class
