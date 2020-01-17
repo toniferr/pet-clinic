@@ -3,17 +3,21 @@ com/toni/petclinic/model/Speciality.class
 com/toni/petclinic/repositories/SpecialtyRepository.class
 com/toni/petclinic/model/Pet.class
 com/toni/petclinic/services/SpecialtyService.class
+com/toni/petclinic/model/Speciality$SpecialityBuilder.class
 com/toni/petclinic/repositories/PetRepository.class
 com/toni/petclinic/services/springdatajpa/SpecialitySDJpaService.class
 com/toni/petclinic/repositories/PetTypeRepository.class
+com/toni/petclinic/model/Owner$OwnerBuilder.class
 com/toni/petclinic/services/PetService.class
 com/toni/petclinic/services/springdatajpa/PetSDJpaService.class
 com/toni/petclinic/services/map/PetTypeMapService.class
 com/toni/petclinic/model/Owner.class
+com/toni/petclinic/model/Pet$PetBuilder.class
 com/toni/petclinic/services/map/VisitMapService.class
 com/toni/petclinic/services/springdatajpa/PetTypeSDJpaService.class
 com/toni/petclinic/repositories/VisitRepository.class
 com/toni/petclinic/model/Visit.class
+com/toni/petclinic/model/PetType$PetTypeBuilder.class
 com/toni/petclinic/services/springdatajpa/VetSDJpaService.class
 com/toni/petclinic/services/map/PetServiceMap.class
 com/toni/petclinic/repositories/OwnerRepository.class
@@ -22,6 +26,7 @@ com/toni/petclinic/services/springdatajpa/OwnerSDJpaService.class
 com/toni/petclinic/services/springdatajpa/VisitSDJpaService.class
 com/toni/petclinic/repositories/VetRepository.class
 com/toni/petclinic/services/OwnerService.class
+com/toni/petclinic/model/Vet$VetBuilder.class
 com/toni/petclinic/services/VetService.class
 com/toni/petclinic/services/map/VetMapService.class
 com/toni/petclinic/services/CrudService.class
@@ -31,4 +36,5 @@ com/toni/petclinic/model/PetType.class
 com/toni/petclinic/model/BaseEntity.class
 com/toni/petclinic/services/map/OwnerMapService.class
 com/toni/petclinic/model/Vet.class
+com/toni/petclinic/model/Visit$VisitBuilder.class
 com/toni/petclinic/services/map/AbstractMapService.class
