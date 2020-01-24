@@ -28,7 +28,7 @@ public class Pet extends BaseEntity{
     private Owner owner;
 
     @Column(name = "birthdate")
-    private LocalDate birthdate;
+    private LocalDate birthDate;
 
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "pet")
     private Set<Visit> visits = new HashSet<>();
