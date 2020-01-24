@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.toni.petclinic.controllers.OwnerControllerTest" time="2.863" tests="8" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.toni.petclinic.controllers.PetControllerTest" time="0.771" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -59,12 +59,11 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="initUpdateFormTest" classname="com.toni.petclinic.controllers.OwnerControllerTest" time="2.16"/>
-  <testcase name="processUpdateOwnerForm" classname="com.toni.petclinic.controllers.OwnerControllerTest" time="0.215"/>
-  <testcase name="showOwnerTest" classname="com.toni.petclinic.controllers.OwnerControllerTest" time="0.079"/>
-  <testcase name="findOwners" classname="com.toni.petclinic.controllers.OwnerControllerTest" time="0.083"/>
-  <testcase name="processFindFormReturnOne" classname="com.toni.petclinic.controllers.OwnerControllerTest" time="0.067"/>
-  <testcase name="processCreationForm" classname="com.toni.petclinic.controllers.OwnerControllerTest" time="0.099"/>
-  <testcase name="processFindFormReturnMany" classname="com.toni.petclinic.controllers.OwnerControllerTest" time="0.063"/>
-  <testcase name="initCreationFormTest" classname="com.toni.petclinic.controllers.OwnerControllerTest" time="0.052"/>
+  <testcase name="processUpdateForm" classname="com.toni.petclinic.controllers.PetControllerTest" time="0.279"/>
+  <testcase name="findOwner" classname="com.toni.petclinic.controllers.PetControllerTest" time="0.062"/>
+  <testcase name="initUpdateForm" classname="com.toni.petclinic.controllers.PetControllerTest" time="0.046"/>
+  <testcase name="processCreationForm" classname="com.toni.petclinic.controllers.PetControllerTest" time="0.126"/>
+  <testcase name="initCreationForm" classname="com.toni.petclinic.controllers.PetControllerTest" time="0.066"/>
+  <testcase name="initOwnerBinder" classname="com.toni.petclinic.controllers.PetControllerTest" time="0.076"/>
+  <testcase name="populatePetTypes" classname="com.toni.petclinic.controllers.PetControllerTest" time="0.102"/>
 </testsuite>
