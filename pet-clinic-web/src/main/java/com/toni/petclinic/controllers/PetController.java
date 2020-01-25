@@ -63,12 +63,12 @@ public class PetController {
             result.rejectValue("name", "duplicate", "already exists");
         }
         owner.getPets().add(pet);
+        pet.setOwner(owner);
         if (result.hasErrors()) {
             model.put("pet", pet);
             return VIEWS_PETS_CREATE_OR_UPDATE_FORM;
         } else {
             petService.save(pet);
-
             return "redirect:/owners/" + owner.getId();
         }
     }
@@ -86,9 +86,9 @@ public class PetController {
             model.addAttribute("pet", pet);
             return VIEWS_PETS_CREATE_OR_UPDATE_FORM;
         } else {
-            owner.getPets().add(pet);
-            petService.save(pet);
-            return "redirect:/owners/" + owner.getId();
+            pet.setOwner(owner);
+            Pet petSaved = petService.save(pet);
+            return "redirect:/owners/" + petSaved.getOwner().getId();
         }
     }
 
