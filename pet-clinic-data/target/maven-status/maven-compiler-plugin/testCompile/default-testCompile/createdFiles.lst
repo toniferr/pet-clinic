@@ -1,2 +1,3 @@
+com/toni/petclinic/services/map/PetServiceMapTest.class
 com/toni/petclinic/services/springdatajpa/OwnerSDJpaServiceTest.class
 com/toni/petclinic/services/map/OwnerMapServiceTest.class
