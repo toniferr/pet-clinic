@@ -1,4 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: com.toni.petclinic.controllers.PetControllerTest
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.123 s - in com.toni.petclinic.controllers.PetControllerTest
+Tests run: 7, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.528 s <<< FAILURE! - in com.toni.petclinic.controllers.PetControllerTest
+processUpdateForm  Time elapsed: 0.282 s  <<< ERROR!
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.NullPointerException
+	at com.toni.petclinic.controllers.PetControllerTest.processUpdateForm(PetControllerTest.java:104)
+Caused by: java.lang.NullPointerException
+	at com.toni.petclinic.controllers.PetControllerTest.processUpdateForm(PetControllerTest.java:104)
+

@@ -88,7 +88,7 @@ public class PetController {
         } else {
             pet.setOwner(owner);
             Pet petSaved = petService.save(pet);
-            return "redirect:/owners/" + petSaved.getOwner().getId();
+            return "redirect:/owners/" + owner.getId();
         }
     }
 
