@@ -1,8 +1,0 @@
-/home/toni/eclipse-workspace/pet-clinic/pet-clinic-web/src/main/java/com/toni/petclinic/controllers/PetController.java
-/home/toni/eclipse-workspace/pet-clinic/pet-clinic-web/src/main/java/com/toni/petclinic/controllers/VetController.java
-/home/toni/eclipse-workspace/pet-clinic/pet-clinic-web/src/main/java/com/toni/petclinic/PetClinicApplication.java
-/home/toni/eclipse-workspace/pet-clinic/pet-clinic-web/src/main/java/com/toni/petclinic/controllers/VisitController.java
-/home/toni/eclipse-workspace/pet-clinic/pet-clinic-web/src/main/java/com/toni/petclinic/bootstrap/DataLoader.java
-/home/toni/eclipse-workspace/pet-clinic/pet-clinic-web/src/main/java/com/toni/petclinic/controllers/IndexController.java
-/home/toni/eclipse-workspace/pet-clinic/pet-clinic-web/src/main/java/com/toni/petclinic/formatters/PetTypeFormatter.java
-/home/toni/eclipse-workspace/pet-clinic/pet-clinic-web/src/main/java/com/toni/petclinic/controllers/OwnerController.java
